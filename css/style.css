@@ -997,12 +997,27 @@ color:#2d2e32;
     .contact-skills a{
       display: flex;
       align-items:center;
-      font-size: 0.65rem;
+      font-size: 0.7rem;
     }
     .footer h1 {
       justify-content: center;
       font-size: 0.85rem;
       margin-left: 0;
+    }
+    .contact-skills ul li {
+      margin-left: 20px;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,.09);
+      display: flex;
+      height: 2.6rem;
+      justify-content: center;
+      width: 2.6rem;
+    }
+    .contact-skills img {
+      width: 1.8rem;
+      height: 1.8rem;
     }
     .menu-skills ul li {
       margin-left: 10px;
@@ -1043,9 +1058,51 @@ color:#2d2e32;
       justify-content: center;
       width: 6.5rem;
   }
+  .contact-skills ul li {
+    margin-left: 20px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    display: flex;
+    height: 2.9rem;
+    justify-content: center;
+    width: 2.9rem;
+  }
+  .contact-skills img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .contact-skills a{
+    display: flex;
+    align-items:center;
+    font-size: 0.7rem;
+  }
   .footer h1 {
     justify-content: center;
     font-size: 0.75rem;
     margin-left: 0;
   }
+  }
+  @media (max-width: 320px){
+    .contact-skills ul li {
+      margin-left: 20px;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0,0,0,.09);
+      display: flex;
+      height: 2.3rem;
+      justify-content: center;
+      width: 2.3rem;
+    }
+    .contact-skills img {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+    .contact-skills a{
+      display: flex;
+      align-items:center;
+      font-size: 0.6rem;
+    }
   }
